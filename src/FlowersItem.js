@@ -1,6 +1,5 @@
 import React from 'react';
-import { flowers } from './flowers';
 
-export default function FlowersItem() {
+export default function FlowersItem({ flowers }) {
   return <div>{flowers}</div>;
 }

@@ -6,7 +6,7 @@ export default function FlowersList({ flowers }) {
   return (
     <div>
       {flowers.map((flower, i) => (
-        <FlowersItem flower={flower} key={flower + i} />
+        <FlowersItem flowers={flower} key={flower + i} />
       ))}
     </div>
   );

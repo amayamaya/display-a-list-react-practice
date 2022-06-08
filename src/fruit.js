@@ -1,4 +1,4 @@
-export const games = [
+export const fruit = [
   {
     name: 'pineapple',
     flavor: 'sour',

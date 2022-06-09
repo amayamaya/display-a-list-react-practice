@@ -4,6 +4,7 @@ import FruitList from './FruitList';
 import SingersList from './SingersList';
 import { flowers } from './flowers.js';
 import { fruit } from './fruit.js';
+import { singers } from './singers.js';
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
       <div className="App">Render all your lists here. Pass the arrays as props.</div>
       <FlowersList flowers={flowers} />
       <FruitList fruit={fruit} />
-      <SingersList />
+      <SingersList singers={singers} />
     </>
   );
 }

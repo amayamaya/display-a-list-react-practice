@@ -1,11 +1,13 @@
 import React from 'react';
 
-export default function ArtistItem({ artist, genre, favorite, album }) {
+export default function SingersItem({ singer, genre, favorite, album }) {
   return (
     <div className="singers">
-      <p>{artist}</p>
+      <p>{singer}</p>
       <p>{genre}</p>
       <p>{favorite}</p>
+      <p>{album.title}</p>
+      <p>{album.year}</p>
     </div>
   );
 }

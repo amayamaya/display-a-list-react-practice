@@ -1,10 +1,10 @@
 import React from 'react';
+import SingersItem from './SingersItem';
 
-export default function SingersList() {
+export default function SingersList({ singers }) {
   return (
-    <div>SingersList</div>
+    <div>
+      {singers.map((singer, i) => <SingersItem {...singer} key={i} />)}
+    </div>
   );
 }
-
-
-

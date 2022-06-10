@@ -11,5 +11,3 @@ export default function SingersItem({ singer, genre, favorite, album }) {
     </div>
   );
 }
-
-//when mapping in item map through albums.title list is the same

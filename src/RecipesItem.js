@@ -1,5 +1,4 @@
 import React from 'react';
-import { recipes } from './recipes';
 
 export default function RecipesItem({ name, veggies }) {
   return (
